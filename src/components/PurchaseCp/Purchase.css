@@ -1,0 +1,186 @@
+.app-container{
+    display: flex;
+    flex-direction:column;
+   
+    
+   
+
+}
+.response-container{
+    display: flex;
+    flex-direction:column;
+    padding:40px;
+    margin-top:20px;
+
+}
+
+
+.cp-container{
+    display:flex;
+    flex-direction:column;
+
+}
+.heading-container{
+    display:flex;
+    align-items:center;
+   
+
+
+}
+.product-container{
+    background-color:green;
+    border:none;
+    padding:14px;
+    width:20%;
+    
+}
+.heading{
+    color:white;
+    font-size:17px;
+    font-family:"Roboto";
+    font-weight:800;
+
+}
+.gallons-container{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+   
+
+}
+.container-1{
+    padding:10px;
+    width:21%;
+    
+    
+}
+.gallo-btn-2{
+    border:1px solid black;
+}
+.container-2{
+    display:flex;
+    align-items: center;
+    width:21%;
+
+
+   
+}
+.gallo-1{
+    border:1px solid black;
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:84px;
+    padding-bottom:5px;
+    
+}
+.gallo-btn{
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+
+}
+.volume-2-container{
+    display:flex;
+    align-items: center;
+    
+
+}
+.brand-select{
+    background-color:rgb(234, 239, 241);
+    font-size:12px;
+    font-family:"Roboto";
+    font-weight:800;
+    border:none;
+    padding:10px;
+    height:30px;
+    width:130px;
+
+    
+   
+    
+}
+.brand-select-1{
+    width:20%;
+    background-color:transparent;
+    
+    
+}
+.empty-text{
+    border:1px solid black;
+    padding:10px;
+    background-color:transparent;
+    margin-left:24%;
+}
+.items-container{
+    display:flex;
+    align-items: center;
+
+}
+.container-3{
+    display:flex;
+    
+    align-items: center;
+    width:24%;
+    
+}
+.validation-se-container{
+    background-color:aliceblue;
+    width:64.5%;
+}
+
+@media screen and (min-width:568px){
+    .validation-se-container{
+        width:67%;
+
+
+
+    }
+    
+}
+.converted-alue-container{
+    display:flex;
+    flex-direction:column;
+    border-left:5px solid #007500;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    border-right:1px solid black;
+    width:20%;
+    border-radius:6px;
+    margin:20px;
+    padding:10px;
+    
+    
+}
+.icon-value-container{
+    display:flex;
+   align-items: center;
+   
+  
+}
+.value-container{
+    display:flex;
+    justify-content:space-between;
+    
+    align-items:center;
+    
+}
+.information-container{
+    display:flex;
+    justify-content:space-between;
+    background-color:aliceblue;
+    
+    align-items: center;
+}
+.awesom-container{
+    display:flex;
+    flex-direction:column;
+}
+.acres-value{
+    display:flex;
+    align-items: center;
+}
+.two-containers{
+    display:flex;
+    align-items:center;
+}
