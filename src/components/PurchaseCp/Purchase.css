@@ -32,6 +32,7 @@
     border:none;
     padding:14px;
     width:20%;
+    border-right:1px solid white;
     
 }
 .heading{
@@ -44,33 +45,57 @@
 .gallons-container{
     display:flex;
     align-items: center;
-    border:1px solid black;
+    
+    width:65%;
+   
    
 
 }
 .container-1{
     padding:10px;
-    width:21%;
+    width:31%;
+    border:2px solid pink;
+    
     
     
 }
 .gallo-btn-2{
     border:1px solid black;
+    padding:5px;
+    background-color:rgb(243, 244, 245);
 }
 .container-2{
     display:flex;
     align-items: center;
-    width:21%;
+    padding:10px;
+    width:31%;
+    
+    border:2px solid pink;
 
 
    
 }
+.container-6{
+    display:flex;
+    align-items: center;
+    width:31%;
+   
+    padding:10px;
+    border:2px solid pink;
+    
+
+}
+
+
+
+
 .gallo-1{
     border:1px solid black;
     padding-left:5px;
     padding-top:5px;
     padding-right:84px;
     padding-bottom:5px;
+    background-color:rgb(243, 244, 245);
     
 }
 .gallo-btn{
@@ -78,6 +103,8 @@
     padding-top:5px;
     padding-right:5px;
     padding-bottom:5px;
+    color:black;
+    font-weight:800;
 
 }
 .volume-2-container{
@@ -86,6 +113,15 @@
     
 
 }
+.volume-9-container{
+    display:flex;
+    align-items:center;
+    border:2px solid pink;
+    width:65%;
+}
+
+
+
 .brand-select{
     background-color:rgb(234, 239, 241);
     font-size:12px;
@@ -95,43 +131,98 @@
     padding:10px;
     height:30px;
     width:130px;
+    background-color:lightgray;
 
     
    
     
 }
 .brand-select-1{
+    width:21.4%;
+    background-color:transparent;
+    border:2px solid pink;
+    
+    
+}
+.brand-select-2{
+    width:32.5%;
+    background-color:transparent;
+    border:2px solid pink;
+
+}
+.brand-select-field{
     width:20%;
     background-color:transparent;
+    padding:16px;
+    border:2px solid pink;
     
-    
+   
+   
+    margin-left:21.1%;
+
 }
 .empty-text{
     border:1px solid black;
     padding:10px;
+    width:60%;
+    margin-left:20px;
     background-color:transparent;
-    margin-left:24%;
+   
 }
 .items-container{
     display:flex;
     align-items: center;
+   
+  
 
 }
 .container-3{
     display:flex;
     
     align-items: center;
-    width:24%;
+    width:21%;
+    border:2px solid pink;
     
+}
+.container-4{
+    display:flex;
+    
+    align-items: center;
+    width:22%;
+    border:2px solid pink;
+
+}
+.container-7{
+    display:flex;
+    
+    align-items: center;
+    width:21%;
+    border:2px solid pink;
+
+}
+.container-optional{
+    width:20%;
+    border:2px solid pink;
+    padding:16px;
+    margin-left:22%;
+    
+
+}
+.container-optional-2{
+    width:30%;
+    border:2px solid pink;
+    padding:16px;
+    margin-left:34.8%;
+
 }
 .validation-se-container{
     background-color:aliceblue;
-    width:64.5%;
+    width:63%;
 }
 
-@media screen and (min-width:568px){
+@media screen and (min-width:768px){
     .validation-se-container{
-        width:67%;
+        width:65%;
 
 
 
@@ -141,14 +232,15 @@
 .converted-alue-container{
     display:flex;
     flex-direction:column;
-    border-left:5px solid #007500;
-    border-top:1px solid black;
-    border-bottom: 1px solid black;
-    border-right:1px solid black;
-    width:20%;
+    border-left:1px solid rgb(234, 228, 228);
+    border-top:1px solid rgb(234, 228, 228);
+    border-bottom: 1px solid rgb(234, 228, 228);
+    border-right:1px solid rgb(234, 228, 228);
+    width:28%;
     border-radius:6px;
     margin:20px;
-    padding:10px;
+   
+    
     
     
 }
@@ -156,11 +248,20 @@
     display:flex;
    align-items: center;
    
+   border-left:4px solid green;
+   border-right:none;
+   border-bottom:none;
+   border-top:none;
+   margin-left:20px;
+   
   
 }
 .value-container{
     display:flex;
     justify-content:space-between;
+    
+    
+    
     
     align-items:center;
     
@@ -175,6 +276,7 @@
 .awesom-container{
     display:flex;
     flex-direction:column;
+    margin-top:20px;
 }
 .acres-value{
     display:flex;
